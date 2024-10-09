@@ -1,0 +1,9 @@
+git clone https://github.com/stackacademytv/master-electron
+npm i
+npm i -g electron
+npm i -g electron-rebuild
+electron-rebuild unModulo
+
+debugging
+electron --inspect-brk=5858 .
+
